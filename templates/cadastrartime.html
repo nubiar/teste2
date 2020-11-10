@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Cadastro</title>
+</head>
+<body>
+    <h1>Cadastrar Time</h1>
+    <form action="cadastrar" method="POST">
+        <label>Nome:</label>
+        <input type="text" name="nometime"/><br><br>
+        <label>Historia:</label>
+        <input type="text" name="historia"/><br><br>
+        <label>Tecnico:</label>
+        <input type="text" name="tecnico"/><br><br>
+        <label>Armador:</label>
+        <input type="text" name="armador"/><br><br>
+        <label>Ala:</label>
+        <input type="text" name="ala"/><br><br>
+        <label>Pivo:</label>
+        <input type="text" name="pivo"/><br><br>
+        <input type="submit" value="Salvar"/>
+        
+    </form>
+</body>
+<!-- "{{ url_for('cadastrar') }}" -->
+</html>
